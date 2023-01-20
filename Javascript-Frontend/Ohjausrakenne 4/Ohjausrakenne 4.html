@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Ohjausrakenne 4.js"></script>
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <button type="button" onclick="yksikko()" id="yksikko"><p>Syötä yksikkö ensimmäisenä</p></button>
+    <button type="button" onclick="funktioSuositus()"><p>Kirjoita suositusmäärä</p></button>
+    <p id="suositus"></p>
+    <p id="suurempi" ></p>
+    <input type='button' value='Lisää annosmäärä' onclick="lista()">
+    <input type="button" value="Poista viimeisin asia listalta" onclick="poista()">
+    <ul id="list_items"></ul>
+    <p id="laakeMaara"></p>
+    <p id="ylitys"></p>
+    <p id="isoin"></p>
+</body>
+</html>
